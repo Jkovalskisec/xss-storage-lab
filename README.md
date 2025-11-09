@@ -12,3 +12,20 @@
 3. **Vi que o input era refletido sem filtro** → injetei o payload:  
    ```html
    <script>alert("XSS_STORED_BY_JEAN")</script>
+
+
+RESULTADO
+<img src="flag.png" alt="Flag capturada">
+
+Flag: -CS{XSS_St0r3d_11k3_4_b0ss}
+XSS Stored: afeta todos os usuários
+
+
+LIÇÃO APRENDIDA
+
+Teste incremental é essencial → do simples ao perigoso
+Negrito funcionando = output não escapado → sinal de XSS
+Mitigação:
+→ htmlspecialchars() no PHP
+→ Sanitização no input
+→ Content Security Policy (CSP)
