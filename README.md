@@ -1,4 +1,4 @@
-# xss-reflected-lab
+# xss-storage-lab
 XSS Stored | Flag capturada | Alvo 10.10.0.5
 
 # XSS Stored – Flag Capturada  
